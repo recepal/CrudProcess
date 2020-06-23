@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudProcess.Service", "CrudProcess.Service\CrudProcess.Service.csproj", "{14C03AC0-7A1C-4775-927F-3196E04E9B99}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{98F3A554-FC87-4A58-8F6F-0335C7047588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{52162608-874F-4B5C-AEFD-FA435A6380A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudProcess.Model", "CrudProcess.Model\CrudProcess.Model.csproj", "{95294A78-1852-49E1-AF96-8043BF8DE495}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dal", "Dal", "{5EB3CFD8-FEB3-4EDC-AC20-D0A64AE53890}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrudProcess.Storage", "CrudProcess.Storage\CrudProcess.Storage.csproj", "{12CA7865-1D60-45C2-9631-7218EF40E78E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14C03AC0-7A1C-4775-927F-3196E04E9B99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14C03AC0-7A1C-4775-927F-3196E04E9B99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14C03AC0-7A1C-4775-927F-3196E04E9B99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14C03AC0-7A1C-4775-927F-3196E04E9B99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95294A78-1852-49E1-AF96-8043BF8DE495}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95294A78-1852-49E1-AF96-8043BF8DE495}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95294A78-1852-49E1-AF96-8043BF8DE495}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95294A78-1852-49E1-AF96-8043BF8DE495}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12CA7865-1D60-45C2-9631-7218EF40E78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12CA7865-1D60-45C2-9631-7218EF40E78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12CA7865-1D60-45C2-9631-7218EF40E78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12CA7865-1D60-45C2-9631-7218EF40E78E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{14C03AC0-7A1C-4775-927F-3196E04E9B99} = {98F3A554-FC87-4A58-8F6F-0335C7047588}
+		{95294A78-1852-49E1-AF96-8043BF8DE495} = {52162608-874F-4B5C-AEFD-FA435A6380A2}
+		{12CA7865-1D60-45C2-9631-7218EF40E78E} = {5EB3CFD8-FEB3-4EDC-AC20-D0A64AE53890}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0773C82A-B5A3-468F-9327-12F73D01EC14}
+	EndGlobalSection
+EndGlobal
