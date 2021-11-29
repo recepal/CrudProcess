@@ -7,7 +7,7 @@ namespace CrudProcess.Storage
 {
     partial class CrudContext : DbContext
     {
-        private readonly string _connectionString = "User ID=postgres; Password=deva; Host=localhost; Port=5442; Database=CrudDb; Pooling=false; Timeout=300; CommandTimeout=180;";
+        private readonly string _connectionString = "..................";
         public CrudContext() { }
 
         public CrudContext(string connectionString)
